@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="com.wh.pjtr.eco.mapper.DataListMapper"> 
+	<select id="selectDataList" resultType="DataListVO">
+  		SELECT id, `desc`
+  		  FROM wh.wh_data;
+	</select> 
+
+	<select id="selectDataListByResNo" parameterType="string" resultType="DataListVO">
+  		SELECT id, `desc`
+  		  FROM wh.wh_data
+  		 WHERE id = #{value};
+	</select> 		
+	
+</mapper>
