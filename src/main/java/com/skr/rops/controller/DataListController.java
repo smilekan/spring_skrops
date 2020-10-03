@@ -1,4 +1,4 @@
-package com.wh.pjtr.eco.controller;
+package com.skr.rops.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.wh.pjtr.eco.common.SessionInfo;
-import com.wh.pjtr.eco.model.DataListVO;
-import com.wh.pjtr.eco.service.DataListService;
+import com.skr.rops.common.SessionInfo;
+import com.skr.rops.model.DataListVO;
+import com.skr.rops.service.DataListService;
 
 @RestController
 @RequestMapping("/DataList")

@@ -1,4 +1,4 @@
-package com.wh.pjtr.eco.config;
+package com.skr.rops.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -27,7 +27,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	public void configure(AuthenticationManagerBuilder auth) throws Exception {
 		auth
 			.inMemoryAuthentication()
-			.withUser("walkerhill").password(passwordEncoder().encode("walkerhill")).roles("USER");
+			.withUser("rops").password(passwordEncoder().encode("rops")).roles("USER");
 	}
 
 	@Bean

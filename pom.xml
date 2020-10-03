@@ -8,14 +8,14 @@
 		<version>2.3.3.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.wh.pjtr</groupId>
-	<artifactId>Service.MBL.ECO</artifactId>
+	<groupId>com.skr</groupId>
+	<artifactId>rops</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Service.MBL.ECO</name>
-	<description>워커힐 모바일플렛폼</description>
+	<name>skrops</name>
+	<description>렌터카온라인플렛폼</description>
 
 	<properties>
-		<java.version>11</java.version>
+		<java.version>8</java.version>
 		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
 	</properties>
 

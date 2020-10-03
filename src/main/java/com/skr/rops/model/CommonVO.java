@@ -1,4 +1,4 @@
-package com.wh.pjtr.eco.model;
+package com.skr.rops.model;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

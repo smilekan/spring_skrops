@@ -1,10 +1,10 @@
-package com.wh.pjtr.eco.mapper;
+package com.skr.rops.mapper;
 
 import java.util.List;
 
 import org.apache.ibatis.annotations.Mapper;
 
-import com.wh.pjtr.eco.model.DataListVO;
+import com.skr.rops.model.DataListVO;
 
 @Mapper
 public interface DataListMapper {

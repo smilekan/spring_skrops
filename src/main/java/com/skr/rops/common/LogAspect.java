@@ -1,4 +1,4 @@
-package com.wh.pjtr.eco.common;
+package com.skr.rops.common;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 public class LogAspect {
 	Logger logger =  LoggerFactory.getLogger(LogAspect.class);
 
-	@Around("execution(* com.wh.pjtr.ECO.service..*.*(..))")
+	@Around("execution(* com.skr.rops.service..*.*(..))")
     public Object logging(ProceedingJoinPoint pjp) throws Throwable {
         logger.info("start - " + pjp.getSignature().getDeclaringTypeName() + " / " + pjp.getSignature().getName());
         Object result = pjp.proceed();

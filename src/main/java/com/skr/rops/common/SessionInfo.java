@@ -1,4 +1,4 @@
-package com.wh.pjtr.eco.common;
+package com.skr.rops.common;
 
 import java.io.Serializable;
 
